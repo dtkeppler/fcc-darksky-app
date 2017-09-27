@@ -1,0 +1,74 @@
+/* font-family: 'Fanwood Text', serif;temp
+font-family: 'Quattrocento', serif; */
+
+.container-fluid {
+  background-color: #737373;
+}
+
+.background {
+  width: 100%;
+  height: auto;
+}
+
+.image,
+.data {
+  position: absolute;
+}
+
+.image {
+  margin-top: -2%;
+}
+
+.data {
+  text-align: center;
+  margin-top: 12%;
+  color: #101211;
+  font-family: 'Fanwood Text', serif;
+/*   height: 20em; */
+}
+
+.intro {
+  font-size: 2em;
+}
+
+.summary,
+.temp {
+  font-size: 4em;
+}
+
+#convert {
+  background: #47535c;
+  background-image: -webkit-linear-gradient(top, #47535c, #8d9ea8);
+  background-image: -moz-linear-gradient(top, #47535c, #8d9ea8);
+  background-image: -ms-linear-gradient(top, #47535c, #8d9ea8);
+  background-image: -o-linear-gradient(top, #47535c, #8d9ea8);
+  background-image: linear-gradient(to bottom, #47535c, #8d9ea8);
+  -webkit-border-radius: 40;
+  -moz-border-radius: 40;
+  border-radius: 40px;
+  color: #101211;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-family: 'Quattrocento', serif;
+  outline: none
+}
+
+#convert:hover {
+  background: #506978;
+  background-image: -webkit-linear-gradient(top, #506978, #243642);
+  background-image: -moz-linear-gradient(top, #506978, #243642);
+  background-image: -ms-linear-gradient(top, #506978, #243642);
+  background-image: -o-linear-gradient(top, #506978, #243642);
+  background-image: linear-gradient(to bottom, #506978, #243642);
+  text-decoration: none;
+}
+
+#dark-sky {
+  margin-top: 2%;
+  font-size: 1.3em;
+}
+
+#dark-sky a {
+  color: #101211;
+}
